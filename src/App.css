@@ -1,1 +1,30 @@
+body {
+    /* background-image: url(food.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #dcedf7;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.button-add {
+    font-family: "Montserrat", sans-serif;
+    background-color: #77cf40;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+
+.button-delete {
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    border: 0;
+}
