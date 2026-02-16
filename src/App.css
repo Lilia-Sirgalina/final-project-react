@@ -1,9 +1,14 @@
 body {
-    /* background-image: url(food.jpg); */
+    background-image: url(food.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
+}
+
+.App {
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
@@ -27,4 +32,28 @@ h1 {
     font-family: "Montserrat", sans-serif;
     background: none;
     border: 0;
+}
+
+.whole-plan {
+    width: 70%;
+    height: 100vh;
+}
+
+.myInput {
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+}
+
+textarea {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
 }
