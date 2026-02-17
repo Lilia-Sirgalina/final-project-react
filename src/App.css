@@ -57,3 +57,11 @@ textarea {
     height: 200px;
     border-radius: 20px;
 }
+
+.selected {
+    background-color: #fad106;
+}
+
+.default {
+    background-color: #dcedf7;
+}
