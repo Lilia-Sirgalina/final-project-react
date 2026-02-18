@@ -65,3 +65,15 @@ textarea {
 .default {
     background-color: #dcedf7;
 }
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 18px;
+}
