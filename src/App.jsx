@@ -13,7 +13,8 @@ function App() {
     const newMeal = {
       id: uuid(),
       title: "Today is ...",
-      mealForADay: "MealForADay",      
+      mealForADay: "", 
+      ingredients: "",     
     }
     setMealPlans([newMeal, ...mealPlans])    
   }

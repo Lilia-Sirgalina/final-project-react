@@ -13,13 +13,19 @@ const MyMealsAndIngredients = ({selectedDay, updateDay}) => {
                 <input type="text" 
                 className="myInput" 
                 placeholder="Input your day..." 
-                id="title" 
+                // id="title" 
                 value={selectedDay.title} 
                 onChange={(e) => editMyMeal("title", e.target.value)} />
 
-                <textarea placeholder="Write your meal plan here" />
+                <textarea placeholder="Write your meal plan here" 
+                // id="MealForADay"
+                value={selectedDay.mealForADay} 
+                onChange={(e) => editMyMeal("mealForADay", e.target.value)} />
 
-                <textarea placeholder="List of ingredients" />
+                <textarea placeholder="List of ingredients"
+                // id="ingredients"
+                value={selectedDay.ingredients} 
+                onChange={(e) => editMyMeal("ingredients", e.target.value)} />
 
             </div>
         </div>

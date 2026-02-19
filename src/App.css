@@ -25,13 +25,15 @@ h1 {
     padding: 20px;
     border-radius: 20px;
     border: none;
-    font-size: 17px;
+    font-size: 17px;    
 }
 
 .button-delete {
     font-family: "Montserrat", sans-serif;
     background: none;
     border: 0;
+    color: red;
+    font-weight: bolder;
 }
 
 .whole-plan {
@@ -76,4 +78,10 @@ p {
     font-family: "Montserrat", sans-serif;
     color: black;
     font-size: 18px;
+}
+
+.field {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 15px;
 }

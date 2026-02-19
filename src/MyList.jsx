@@ -8,14 +8,15 @@ const MyList = ({addMeal, mealPlans, deleteDay, selectedDay, setSelectedDay}) =>
             </div>
 
             <div>
-                {mealPlans.map(({id, title, mealForADay}) => (
+                {mealPlans.map(({id, title, mealForADay, ingredients}) => (
                     <div key={id} 
                         onClick={() => setSelectedDay(id)} 
                         className={`${selectedDay === id ? "selected" : "default"}`}
                         >
                             
                         <p className="title">{title}</p>
-                        <p>{mealForADay}</p>
+                        <p className="field">{mealForADay.substring(0, 60)}</p>
+                        <p className="field">{ingredients}</p>
                         <button className="button-delete" onClick={() => deleteDay(id)}>Delete</button>
                     </div>
                 ))}
