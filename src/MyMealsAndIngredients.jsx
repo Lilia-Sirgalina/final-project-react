@@ -7,27 +7,25 @@ const MyMealsAndIngredients = ({selectedDay, updateDay}) => {
     if(!selectedDay) return <p>Plan your week ahead of time!</p>
 
     return (
-        <div className="whole-plan">
-            <div className="meal-editing">
+        <div className="whole-plan">            
 
-                <input type="text" 
-                className="myInput" 
-                placeholder="Input your day..." 
-                // id="title" 
-                value={selectedDay.title} 
-                onChange={(e) => editMyMeal("title", e.target.value)} />
+            <input type="text" 
+            className="myInput" 
+            placeholder="Input your day..." 
+            // id="title" 
+            value={selectedDay.title} 
+            onChange={(e) => editMyMeal("title", e.target.value)} />
 
-                <textarea placeholder="Write your meal plan here" 
-                // id="MealForADay"
-                value={selectedDay.mealForADay} 
-                onChange={(e) => editMyMeal("mealForADay", e.target.value)} />
+            <textarea placeholder="Write your meal plan here" 
+            // id="MealForADay"
+            value={selectedDay.mealForADay} 
+            onChange={(e) => editMyMeal("mealForADay", e.target.value)} />
 
-                <textarea placeholder="List of ingredients"
-                // id="ingredients"
-                value={selectedDay.ingredients} 
-                onChange={(e) => editMyMeal("ingredients", e.target.value)} />
-
-            </div>
+            <textarea placeholder="List of ingredients"
+            // id="ingredients"
+            value={selectedDay.ingredients} 
+            onChange={(e) => editMyMeal("ingredients", e.target.value)} />
+            
         </div>
     )
 }

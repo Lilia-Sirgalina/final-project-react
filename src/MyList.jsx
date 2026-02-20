@@ -25,4 +25,4 @@ const MyList = ({addMeal, mealPlans, deleteDay, selectedDay, setSelectedDay}) =>
     )
 }
 
-export default MyList
+export default MyList;
