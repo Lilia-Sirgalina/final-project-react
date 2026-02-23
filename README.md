@@ -2,7 +2,7 @@
 
 ## Demo  
 🔗 View the app on Netlify  
-(https://weekly-meal-planner.netlify.app/)
+(https://lily-meal-planner.netlify.app/)
 
 ## Project Description
 
